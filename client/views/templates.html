@@ -1,0 +1,33 @@
+<template name="fullScreen">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Verified!
+    </title>
+    <meta   name="viewport"   content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+  </head>
+
+
+  <body>
+    <div class="jutoContent container-fluid preventSelect">
+      {{> yield}}
+
+    </div>
+
+
+  </body>
+</template>  
+
+
+<template name="checkemail">
+  <h1>Please check your email</h1>
+  <p>Once you verify you can do amazing things!</p>
+</template>
+
+<template name="verified">
+  <div id="emailVerified">
+    <h1>Email Verified!</h1>
+    <p> now you can sign in using the app.</p>
+  </div>
+</template>
