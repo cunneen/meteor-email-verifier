@@ -9,7 +9,7 @@ Package.on_use(function(api, where) {
     'underscore',
     'templating',
     'handlebars',
-    'iron-router']
+    'iron:router']
           , 'client');
   api.use([
     'accounts-base',
