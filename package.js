@@ -27,6 +27,6 @@ Package.on_use(function(api, where) {
 });
 
 Package.on_test(function(api) {
-  api.use('email-verifier');
+  api.use('cunneen:email-verifier');
 
 });
