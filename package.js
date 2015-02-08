@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Override the default email verification sequence. From https://github.com/ideaq/meteor-email ."
+  summary: "Override the default email verification sequence. From https://github.com/ideaq/meteor-email .",
+    version: '1.0.1',
+    name: "cunneen:email-verifier",
+    githubUrl: 'https://github.com/cunneen/meteor-email-verifier/'
 });
 
 Package.on_use(function(api, where) {
@@ -9,7 +12,8 @@ Package.on_use(function(api, where) {
     'underscore',
     'templating',
     'handlebars',
-    'iron-router']
+    'email',
+    'iron:router']
           , 'client');
   api.use([
     'accounts-base',
