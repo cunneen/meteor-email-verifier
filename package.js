@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Override the default email verification sequence. From https://github.com/ideaq/meteor-email .",
+  summary: "Override the default email verification sequence. https://github.com/ideaq/meteor-email",
     version: '1.0.1',
     name: "cunneen:email-verifier",
     githubUrl: 'https://github.com/cunneen/meteor-email-verifier/'
