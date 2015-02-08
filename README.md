@@ -1,5 +1,10 @@
 # meteor-email-verifier
-A meteor email verification package that works with iron router, based on https://github.com/ideaq/meteor-email
+
+Email verification package that works with iron router. 
+
+## Description
+
+Based on [https://github.com/ideaq/meteor-email]()
 
 To use:
 

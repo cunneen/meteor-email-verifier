@@ -7,16 +7,16 @@ Package.describe({
 
 Package.on_use(function(api, where) {
   api.use([
-    'deps',
-    'service-configuration',
-    'underscore',
-    'templating',
-    'handlebars',
-    'email',
-    'iron:router']
+    'deps@1.0.6',
+    'service-configuration@1.0.3',
+    'underscore@1.0.2',
+    'templating@1.0.11',
+    'handlebars@1.0.2',
+    'email@1.0.5',
+    'iron:router@1.0.7']
           , 'client');
   api.use([
-    'accounts-base',
+    'accounts-base@1.1.3',
   ], ['client', 'server']);
   api.add_files([
     'client/views/templates.html',
